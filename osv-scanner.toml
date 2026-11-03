@@ -1,7 +1,7 @@
 # Doc test 1: accept one advisory by its CVE ID only (pyyaml)
 [[IgnoredVulns]]
 id = "CVE-2020-14343"
-ignoreUntil = 2027-01-01
+ignoreUntil = "2027-01-01"
 reason = "Doc test: only safe_load is used."
 
 # Doc test 2: accept one advisory with no reason (expect a warning)
